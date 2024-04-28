@@ -362,6 +362,7 @@ visibility: hidden;
   @media (max-width: 444px) {
     .home .home-text{
         margin-right: 100px;
+       
     }
     .side-nav{
         transform: translateX(-130%);
@@ -393,4 +394,13 @@ width: 89%;
     .side-nav.active{
         width: 53%; 
     }
+    .home .home-text{
+        position: absolute;
+        left: 10%;
+       
+    }
+    .home .home-text h1{
+        line-height: 3.5rem;   
+       }
+    
   }
